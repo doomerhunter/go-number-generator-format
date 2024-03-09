@@ -1,0 +1,1 @@
+# go-number-generator-format
