@@ -3,6 +3,10 @@
 Burp Intruder style number generator for fuzzing purposes. Generates sequential or random numbers based on user-provided parameters.
 Numbers outputted will follow the min and max number of digits provided (similarly to Burp Intruder).
 
+Can be piped into FFUF for dynamic payload generation (once again, similarly to a burp intruder and without the need to have your payload file touching your disk)
+
+![](https://github.com/doomerhunter/go-number-generator-format/blob/main/example.jpg)
+
 ## Example usage 
 
 Generates all numbers from 1 to 10, with 3 digits, no floats
